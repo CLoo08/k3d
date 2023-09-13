@@ -25,8 +25,7 @@ export default function Newsletter() {
               </div>
 
               <div className="relative flex flex-col lg:flex-row justify-between items-center">
-                
-                <div className="w-full overflow-x-auto">
+                <div className="w-full overflow-x-auto ">
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-full">
                     <table className="w-full table-auto">
                       <thead>
