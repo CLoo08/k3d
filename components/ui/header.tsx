@@ -21,7 +21,6 @@ export default function Header() {
                 style={{ marginTop: '50px' }} // Agrega el margen superior aquí
               />
           </div>      
-          <MobileMenu/>
         </div>
       </div>
     </header>
