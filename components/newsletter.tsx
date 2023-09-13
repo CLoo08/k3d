@@ -4,12 +4,12 @@ export default function Newsletter() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">      
         <div className="py-12 md:py-20 border-t border-gray-800">
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-2">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4" id="cronograma">Cronograma de Actividades</h2>
           </div>
 
             {/* CTA box */}
-            <div className="relative  py-10 px-8 md:py-16 md:px-12" data-aos="fade-up">
+            <div className="relative py-10 px-8 md:py-16 md:px-12" data-aos="fade-up">
 
               {/* Background illustration */}
               <div className="absolute right-0 top-0 -ml-40 pointer-events-none" aria-hidden="true">
@@ -25,18 +25,10 @@ export default function Newsletter() {
               </div>
 
               <div className="relative flex flex-col lg:flex-row justify-between items-center">
-
-                {/* CTA content */}
-                {/*<div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-                  {/*<h3 className="h3 text-white mb-2">¿Deseas saber más sobre las <h3 className="text-yellow-600">bases para la competencia?</h3></h3>*/}
-                  {/*<p className="text-purple-200 text-lg"></p>
-                </div>*/}
-
-                {/* CTA form */}
                 
-                <div className="w-full">
+                <div className="w-full overflow-x-auto">
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-full">
-                    <table className="w-full">
+                    <table className="w-full table-auto">
                       <thead>
                         <tr>
                           <th className="py-2 px-4 text-center text-xl text-yellow-500">HORA</th>
