@@ -9,6 +9,7 @@ import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
 import Podio from '@/components/podio'
+import Patrocinadores from '@/components/patrocinadores'
 import Inscripcion from '@/components/inscripcion'
 import Preguntas from '@/components/preguntas'
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Testimonials />
       <Newsletter />
       <Podio />
+      <Patrocinadores/>
       <Inscripcion />
       <Preguntas />
     </>

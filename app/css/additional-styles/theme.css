@@ -151,5 +151,35 @@
     }
 }
 
-/* Table Style */
+/* Estilo propio */
 
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .clients .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #003462b3;
+  }
+  
+  .clients .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #003462b3;
+  }
+  
+  .clients .swiper-slide img {
+    opacity: 0.5;
+    filter: grayscale(100%);
+  }
+  
+  .clients .swiper-slide img:hover {
+    filter: none;
+    opacity: 1;
+  }
+  
