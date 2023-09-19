@@ -77,19 +77,22 @@ export default function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Recursos</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                    <Link href="https://polyhaven.com/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" target='blank'>Polyhaven</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Visual mockups</Link>
+                    <Link href="https://ambientcg.com/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" target='blank'>Ambientcg</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                    <Link href="https://texture.ninja/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" target='blank'>Texture Ninja</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Visual mockups</Link>
+                    <Link href="https://thehappytoolbox.com/freebies" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" target='blank'>The Happy Tool Box</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                    <Link href="https://free3d.com/es/modelos-3d/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" target='blank'>Free3d</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="https://www.behance.net/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" target='blank'>Behance</Link>
                   </li>
                 </ul>
               </div>

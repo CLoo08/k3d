@@ -1,4 +1,4 @@
-import Luna from '@/public/images/luna.png'
+import Modelo from '@/public/images/modelo1.png'
 
 import ModalVideo from '@/components/modal-video'
 
@@ -42,10 +42,10 @@ export default function Hero() {
           </div>
 
           <ModalVideo
-            thumb={Luna}
+            thumb={Modelo}
             thumbWidth={1024}
             thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
+            thumbAlt="Modal video K3d"
             video="/videos/video-k3d.mp4"
             videoWidth={1920}
             videoHeight={1080} />

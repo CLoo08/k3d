@@ -10,7 +10,7 @@ export default function Inscripcion() {
             <iframe
               width="800px"
               height="660px"
-              src="https://forms.gle/d7Wc7UFMVC3Wz4No7"
+              src="https://docs.google.com/forms/d/10PCZ9eaWiou4PXkqoVcUDWpB6AR3XOy3Smy-OC8fjPk/closedform"
               className="border-none max-w-full max-h-screen"
             ></iframe>
           </div>
