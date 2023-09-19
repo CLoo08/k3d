@@ -1,8 +1,8 @@
-1:HL["/_next/static/css/9b1ada59148d2ba2.css",{"as":"style"}]
-0:["YRQ-G8_bmNx2IucZ09rbU",[[["",{"children":["(auth)",{"children":["reset-password",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9b1ada59148d2ba2.css","precedence":"next"}]],"$L3"]]]]
-4:I{"id":9355,"chunks":["986:static/chunks/986-c0c35faf27b5a083.js","185:static/chunks/app/layout-bc2981602958cce6.js"],"name":"","async":false}
-5:I{"id":7767,"chunks":["272:static/chunks/webpack-068b10833700f6af.js","971:static/chunks/fd9d1056-5d33e643200a6aee.js","596:static/chunks/596-d741ded49bfc72cc.js"],"name":"default","async":false}
-6:I{"id":7920,"chunks":["272:static/chunks/webpack-068b10833700f6af.js","971:static/chunks/fd9d1056-5d33e643200a6aee.js","596:static/chunks/596-d741ded49bfc72cc.js"],"name":"default","async":false}
+1:HL["/_next/static/css/1d67c97905a8aee0.css",{"as":"style"}]
+0:["r41fo9Zyw98MzQMlG_tBR",[[["",{"children":["(auth)",{"children":["reset-password",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1d67c97905a8aee0.css","precedence":"next"}]],"$L3"]]]]
+4:I{"id":9355,"chunks":["986:static/chunks/986-c0c35faf27b5a083.js","185:static/chunks/app/layout-1258e0dc2a0a5d71.js"],"name":"","async":false}
+5:I{"id":7767,"chunks":["272:static/chunks/webpack-4ab93b887ad5f084.js","971:static/chunks/fd9d1056-5d33e643200a6aee.js","596:static/chunks/596-d741ded49bfc72cc.js"],"name":"default","async":false}
+6:I{"id":7920,"chunks":["272:static/chunks/webpack-4ab93b887ad5f084.js","971:static/chunks/fd9d1056-5d33e643200a6aee.js","596:static/chunks/596-d741ded49bfc72cc.js"],"name":"default","async":false}
 7:I{"id":3564,"chunks":["695:static/chunks/app/(auth)/layout-b858354e34abb95f.js"],"name":"","async":false}
 9:I{"id":6685,"chunks":["685:static/chunks/685-3e3e48bf339c7bdd.js","277:static/chunks/app/(auth)/reset-password/page-75fbef2bdbc3b480.js"],"name":"","async":false}
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Reset Password - Open PRO"}],["$","meta","2",{"name":"description","content":"Page description"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]

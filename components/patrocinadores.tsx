@@ -38,10 +38,10 @@ const Patrocinadores = () => {
 
   return (
     <section className="py-2">
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 delay-75 duration-100 ease-in-out" data-aos="fade-up">
-        <div className="py-8 md:py-10 border-t border-gray-800">
-          <div className="mx-auto max-w-2xl py-10 sm:py-10 lg:max-w-none lg:py-5">
-            <div className="max-w-4xl mx-auto text-center pb-5 md:pb-16"> {/* Ajusta el ancho del contenedor */}
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 delay-75 duration-100 ease-in-out" data-aos="fade-up">
+        <div className="py-2 md:py-10 border-t border-gray-800">
+          <div className="mx-auto max-w-2xl sm:py-16 lg:max-w-none lg:py-2"> {/* Ajustamos el padding vertical aquí también */}
+            <div className="max-w-3xl mx-auto text-center pb-2 md:pb-2"> {/* Ajustamos el padding vertical aquí también */}
               <h2 className="h2 mb-4" id="patrocinadores">
                   Patrocinadores
               </h2>

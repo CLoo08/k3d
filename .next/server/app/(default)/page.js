@@ -265,7 +265,7 @@ const tree = {
         '(default)',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4554)), "C:\\Users\\chris\\Documents\\k3d\\app\\(default)\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8513)), "C:\\Users\\chris\\Documents\\k3d\\app\\(default)\\page.tsx"],
           
         }]
       },
@@ -322,14 +322,14 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 4750:
+/***/ 321:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8497));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6139));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1313));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7958));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8497));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6139));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3229))
 
 /***/ }),
@@ -924,112 +924,115 @@ const Patrocinadores = ()=>{
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
         className: "py-2",
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-            className: "mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 delay-75 duration-100 ease-in-out",
+            className: "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 delay-75 duration-100 ease-in-out",
             "data-aos": "fade-up",
             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "py-8 md:py-10 border-t border-gray-800",
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "mx-auto max-w-2xl py-10 sm:py-10 lg:max-w-none lg:py-5",
-                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "max-w-4xl mx-auto text-center pb-5 md:pb-16",
-                        children: [
-                            " ",
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                className: "h2 mb-4",
-                                id: "patrocinadores",
-                                children: "Patrocinadores"
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "relative w-full",
-                                children: [
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                        className: "relative h-96 overflow-visible rounded-lg",
-                                        children: [
-                                            " ",
-                                            slides.map((slide, index)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                    className: `${index === currentSlide ? "opacity-100" : "opacity-0"} absolute top-0 left-0 w-full h-96 transition-opacity duration-700 ease-in-out`,
-                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                                                        src: slide.image,
-                                                        alt: `Slide ${index + 1}`,
-                                                        layout: "fill",
-                                                        objectFit: "contain"
-                                                    })
-                                                }, slide.id))
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2",
-                                        children: slides.map((_, index)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                                type: "button",
-                                                className: `w-3 h-3 rounded-full ${index === currentSlide ? "bg-white dark:bg-gray-800" : "bg-gray-300 dark:bg-gray-600"}`,
-                                                "aria-current": index === currentSlide ? "true" : "false",
-                                                "aria-label": `Slide ${index + 1}`,
-                                                "data-carousel-slide-to": index,
-                                                onClick: ()=>setCurrentSlide(index)
-                                            }, index))
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                        type: "button",
-                                        className: "absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none",
-                                        "data-carousel-prev": true,
-                                        onClick: prevSlide,
-                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                            className: "inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none",
+                className: "py-2 md:py-10 border-t border-gray-800",
+                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    className: "mx-auto max-w-2xl sm:py-16 lg:max-w-none lg:py-2",
+                    children: [
+                        " ",
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: "max-w-3xl mx-auto text-center pb-2 md:pb-2",
+                            children: [
+                                " ",
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                                    className: "h2 mb-4",
+                                    id: "patrocinadores",
+                                    children: "Patrocinadores"
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "relative w-full",
+                                    children: [
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            className: "relative h-96 overflow-visible rounded-lg",
                                             children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
-                                                    className: "w-4 h-4 text-white dark:text-gray-800",
-                                                    "aria-hidden": "true",
-                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                    fill: "none",
-                                                    viewBox: "0 0 6 10",
-                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                                                        stroke: "currentColor",
-                                                        "stroke-linecap": "round",
-                                                        "stroke-linejoin": "round",
-                                                        "stroke-width": "2",
-                                                        d: "M5 1 1 5l4 4"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                    className: "sr-only",
-                                                    children: "Previous"
-                                                })
+                                                " ",
+                                                slides.map((slide, index)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                        className: `${index === currentSlide ? "opacity-100" : "opacity-0"} absolute top-0 left-0 w-full h-96 transition-opacity duration-700 ease-in-out`,
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                                                            src: slide.image,
+                                                            alt: `Slide ${index + 1}`,
+                                                            layout: "fill",
+                                                            objectFit: "contain"
+                                                        })
+                                                    }, slide.id))
                                             ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                        type: "button",
-                                        className: "absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none",
-                                        "data-carousel-next": true,
-                                        onClick: nextSlide,
-                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                            className: "inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none",
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
-                                                    className: "w-4 h-4 text-white dark:text-gray-800",
-                                                    "aria-hidden": "true",
-                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                    fill: "none",
-                                                    viewBox: "0 0 6 10",
-                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                                                        stroke: "currentColor",
-                                                        "stroke-linecap": "round",
-                                                        "stroke-linejoin": "round",
-                                                        "stroke-width": "2",
-                                                        d: "m1 9 4-4-4-4"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                            className: "absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2",
+                                            children: slides.map((_, index)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                                    type: "button",
+                                                    className: `w-3 h-3 rounded-full ${index === currentSlide ? "bg-white dark:bg-gray-800" : "bg-gray-300 dark:bg-gray-600"}`,
+                                                    "aria-current": index === currentSlide ? "true" : "false",
+                                                    "aria-label": `Slide ${index + 1}`,
+                                                    "data-carousel-slide-to": index,
+                                                    onClick: ()=>setCurrentSlide(index)
+                                                }, index))
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                            type: "button",
+                                            className: "absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none",
+                                            "data-carousel-prev": true,
+                                            onClick: prevSlide,
+                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                                className: "inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none",
+                                                children: [
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
+                                                        className: "w-4 h-4 text-white dark:text-gray-800",
+                                                        "aria-hidden": "true",
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        fill: "none",
+                                                        viewBox: "0 0 6 10",
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+                                                            stroke: "currentColor",
+                                                            "stroke-linecap": "round",
+                                                            "stroke-linejoin": "round",
+                                                            "stroke-width": "2",
+                                                            d: "M5 1 1 5l4 4"
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                        className: "sr-only",
+                                                        children: "Previous"
                                                     })
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                    className: "sr-only",
-                                                    children: "Next"
-                                                })
-                                            ]
+                                                ]
+                                            })
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                            type: "button",
+                                            className: "absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none",
+                                            "data-carousel-next": true,
+                                            onClick: nextSlide,
+                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                                className: "inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none",
+                                                children: [
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
+                                                        className: "w-4 h-4 text-white dark:text-gray-800",
+                                                        "aria-hidden": "true",
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        fill: "none",
+                                                        viewBox: "0 0 6 10",
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+                                                            stroke: "currentColor",
+                                                            "stroke-linecap": "round",
+                                                            "stroke-linejoin": "round",
+                                                            "stroke-width": "2",
+                                                            d: "m1 9 4-4-4-4"
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                        className: "sr-only",
+                                                        children: "Next"
+                                                    })
+                                                ]
+                                            })
                                         })
-                                    })
-                                ]
-                            })
-                        ]
-                    })
+                                    ]
+                                })
+                            ]
+                        })
+                    ]
                 })
             })
         })
@@ -1319,7 +1322,7 @@ const __default__ = proxy.default;
 
 /***/ }),
 
-/***/ 4554:
+/***/ 8513:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2782,6 +2785,48 @@ const patrocinadores_default_ = patrocinadores_proxy.default;
 
 
 /* harmony default export */ const patrocinadores = (patrocinadores_default_);
+;// CONCATENATED MODULE: ./components/inscripcion.tsx
+
+function Inscripcion() {
+    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+        className: "py-2",
+        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            className: "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 delay-75 duration-100 ease-in-out",
+            "data-aos": "fade-up",
+            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: "py-8 md:py-10 border-t border-gray-800",
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "mx-auto max-w-2xl sm:py-16 lg:max-w-none lg:py-16",
+                    children: [
+                        " ",
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "max-w-3xl mx-auto text-center pb-8 md:pb-16",
+                            children: [
+                                " ",
+                                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                    className: "h2 mb-4",
+                                    id: "premios",
+                                    children: "Formulario de Inscripci\xf3n"
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: "text-center",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "https://forms.gle/e5U9Fyyqy1JbioXc8",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "bg-yellow-400 hover:bg-blue-700 hover:text-white text-black text-xl font-semibold py-2 px-4 rounded-full",
+                                children: "Accede al formulario de inscripci\xf3n haciendo clic aqu\xed"
+                            })
+                        })
+                    ]
+                })
+            })
+        })
+    });
+}
+
 ;// CONCATENATED MODULE: ./components/preguntas.tsx
 
 const preguntas_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\chris\Documents\k3d\components\preguntas.tsx`)
@@ -2808,7 +2853,8 @@ const metadata = {
 
 
 
-/*import Inscripcion from '@/components/inscripcion'*/ 
+
+
 function Home() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
@@ -2819,6 +2865,7 @@ function Home() {
             /*#__PURE__*/ jsx_runtime_.jsx(Newsletter, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(podio, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(patrocinadores, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Inscripcion, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(preguntas, {})
         ]
     });
