@@ -29,10 +29,10 @@ export default function Footer() {
                       <span className="text-gray-400 transition duration-150 ease-in-out">Facultad de Ingeniería en Sistemas Computacionales</span>
                     </li>
                     <li className="ml-1">
-                      <span className="text-gray-400 transition duration-150 ease-in-out">8 de septiembre</span>
+                      <span className="text-gray-400 transition duration-150 ease-in-out">17-27 de octubre</span>
                     </li>
                     <li className="ml-1">
-                      <span className="text-gray-400 transition duration-150 ease-in-out">9:00 a.m. - 5:00 p.m.</span>
+                      <span className="text-gray-400 transition duration-150 ease-in-out">Final: 9:00 a.m. - 5:00 p.m.</span>
                     </li>
                 </ul>
               </div>
@@ -99,13 +99,19 @@ export default function Footer() {
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Patrocinador Oficial</h6>
+                <h6 className="text-gray-200 font-medium mb-1">Patrocinadores Oficiales</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="https://www.tecology.com.pa/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" target='blank'>Tecology - Web</Link>
                   </li>
                   <li className="mb-1">
                     <Link href="https://www.instagram.com/tecologypanama/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" target='blank'>Tecology - Instagram</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="https://www.panamaesportsacademy.com/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" target='blank'>Panama ESports Academy - Web</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="https://www.instagram.com/panamaesportsacademy" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" target='blank'>Panama ESports Academy - Instagram</Link>
                   </li>
                 </ul>
               </div>

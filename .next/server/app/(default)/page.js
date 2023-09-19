@@ -322,14 +322,14 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 9313:
+/***/ 4750:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8497));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6139));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1313));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7958));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6139));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8497));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3229))
 
 /***/ }),
@@ -423,14 +423,14 @@ function Footer() {
                                                     className: "ml-1",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                         className: "text-gray-400 transition duration-150 ease-in-out",
-                                                        children: "8 de septiembre"
+                                                        children: "17-27 de octubre"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                     className: "ml-1",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                         className: "text-gray-400 transition duration-150 ease-in-out",
-                                                        children: "9:00 a.m. - 5:00 p.m."
+                                                        children: "Final: 9:00 a.m. - 5:00 p.m."
                                                     })
                                                 })
                                             ]
@@ -590,7 +590,7 @@ function Footer() {
                                         children: [
                                             /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                                                 className: "text-gray-200 font-medium mb-1",
-                                                children: "Patrocinador Oficial"
+                                                children: "Patrocinadores Oficiales"
                                             }),
                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
                                                 children: [
@@ -610,6 +610,24 @@ function Footer() {
                                                             className: "text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out",
                                                             target: "blank",
                                                             children: "Tecology - Instagram"
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                        className: "mb-1",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                            href: "https://www.panamaesportsacademy.com/",
+                                                            className: "text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out",
+                                                            target: "blank",
+                                                            children: "Panama ESports Academy - Web"
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                        className: "mb-1",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                            href: "https://www.instagram.com/panamaesportsacademy",
+                                                            className: "text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out",
+                                                            target: "blank",
+                                                            children: "Panama ESports Academy - Instagram"
                                                         })
                                                     })
                                                 ]
