@@ -14,7 +14,7 @@ export default function Inscripcion() {
                 rel="noopener noreferrer"
                 className="bg-yellow-400 hover:bg-blue-700 hover:text-white text-black text-xl font-semibold py-2 px-4 rounded-full"
               >
-Accede al formulario de inscripción haciendo clic aquí
+                Accede haciendo clic aquí
               </a>
             </div>
           </div>
