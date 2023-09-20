@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image'
 
-import Monitor from '@/public/images/Monitor27.jpg'
+import Monitor from '@/public/images/Monitor.png'
 import certficiado150 from '@/public/images/premio150.png'
 import certficiado100 from '@/public/images/premio100.png'
 
@@ -18,11 +18,11 @@ const Podium = () => {
 
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
               <div className="group relative">
-                <div className="relative h-full w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                <div className="relative h-full w-full overflow-hidden rounded-lg bg-grey-900 sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
                 <Image className="h-full w-100 object-cover object-center" src={Monitor}  alt="Premio 1" />
                 </div>
                 <h3 className="mt-6 text-sm text-white-500">
-                    Monitor de 27 pulgadas
+                    Monitor de 27" - SMI EM27M6W Curvo FullHD
                 </h3>
                 <p className="text-base font-semibold text-white-900">Primer Lugar</p>
               </div>
