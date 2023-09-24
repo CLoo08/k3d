@@ -31,27 +31,18 @@ export default function Hero() {
             donde cada participante buscará reclamar ser el primer
             <br></br>
             <strong className='h3 text-yellow-500'>"King of <span className="text-yellow-500">3D Modeling </span>Champion"</strong></p>          
-              {/*<div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-              </div>
-            </div>*/}
           </div>
 
-          <ModalVideo
+          <ModalVideo            
             thumb={Modelo}
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video K3d"
             video="/videos/video-k3d.mp4"
             videoWidth={1920}
-            videoHeight={1080} />
-
+            videoHeight={1080}
+          />
         </div>
-
       </div>
     </section>
   )

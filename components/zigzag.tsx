@@ -29,7 +29,7 @@ export default function Zigzag() {
                   muted
                   playsInline
                 >
-                  <source src="/videos/auto-blender.mp4" type="video/mp4" />
+                  <source rel='preload' src="/videos/auto-blender.mp4" type="video/mp4" />
                 </video>
               </div>
               {/* Content */}
@@ -72,7 +72,7 @@ export default function Zigzag() {
                   muted
                   playsInline
                 >
-                  <source src="/videos/nintendo_AS_Dribbble.mp4" type="video/mp4" />
+                  <source rel='preload' src="/videos/nintendo_AS_Dribbble.mp4" type="video/mp4" />
                 </video>
               </div>
               {/* Content */}
