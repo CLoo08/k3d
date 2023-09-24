@@ -322,15 +322,15 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 6960:
+/***/ 8108:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8409));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7958));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3229));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6139));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5400))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5400));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6139))
 
 /***/ }),
 
@@ -1369,8 +1369,6 @@ function Hero() {
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: "absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none",
                     "aria-hidden": "true",
-                    "data-aos": "fade-up",
-                    "data-aos-delay": "400",
                     children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
                         className: "max-w-full",
                         width: "564",
@@ -1416,8 +1414,7 @@ function Hero() {
                             className: "max-w-3xl mx-auto text-center pb-12 md:pb-4",
                             children: [
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
-                                    className: "h1 mb-4 text-white transition duration-150 ease-in-out",
-                                    "data-aos": "fade-up",
+                                    className: "h1 mb-4 text-white",
                                     id: "inicio",
                                     children: [
                                         " King of ",
@@ -1429,8 +1426,6 @@ function Hero() {
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                     className: "text-xl text-gray-400 mb-auto",
-                                    "data-aos": "fade-up",
-                                    "data-aos-delay": "200",
                                     children: [
                                         "Este torneo ser\xe1 un enfrentamiento de todos contra todos,",
                                         /*#__PURE__*/ jsx_runtime_.jsx("br", {}),

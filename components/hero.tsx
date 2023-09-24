@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
         {/* Illustration behind hero content */}
-        <div className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">          
+        <div className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true">          
           <svg className="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="illustration-02" x1="-3.766" y1="300.204" x2="284.352" y2="577.921" gradientUnits="userSpaceOnUse">
@@ -25,8 +25,8 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-4">
-          <h1 className="h1 mb-4 text-white transition duration-150 ease-in-out" data-aos="fade-up" id='inicio'> King of <span className="text-yellow-500">3D Modeling</span></h1>   
-            <p className="text-xl text-gray-400 mb-auto" data-aos="fade-up" data-aos-delay="200">Este torneo será un enfrentamiento de todos contra todos, 
+          <h1 className="h1 mb-4 text-white" id='inicio'> King of <span className="text-yellow-500">3D Modeling</span></h1>   
+            <p className="text-xl text-gray-400 mb-auto">Este torneo será un enfrentamiento de todos contra todos, 
             <br></br>
             donde cada participante buscará reclamar ser el primer
             <br></br>

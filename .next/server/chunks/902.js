@@ -60,8 +60,7 @@ function Header() {
             children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: "flex items-center justify-between h-20",
                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "shrink-0 mr-4 transition duration-150 ease-in-out",
-                    "data-aos": "fade-up",
+                    className: "shrink-0 mr-4",
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         className: "rounded-full",
                         src: Banner_modelado/* default */.Z,
