@@ -3,8 +3,8 @@ import React from 'react';
 import Image from 'next/image'
 
 import Monitor from '@/public/images/Monitor.webp'
-import certficiado150 from '@/public/images/premio150.webp'
-import certficiado100 from '@/public/images/premio100.webp'
+import certficiado150 from '@/public/images/premio150.png'
+import certficiado100 from '@/public/images/premio100.png'
 
 const Podium = () => {
   return (

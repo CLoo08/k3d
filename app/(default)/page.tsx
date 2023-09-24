@@ -5,9 +5,9 @@ export const metadata = {
 
 import Hero from '@/components/hero'
 import Features from '@/components/features'
-import Newsletter from '@/components/newsletter'
+import Cronograma from '@/components/cronograma'
 import Zigzag from '@/components/zigzag'
-import Testimonials from '@/components/testimonials'
+import Bases from '@/components/bases'
 import Podio from '@/components/podio'
 import Patrocinadores from '@/components/patrocinadores'
 import Inscripcion from '@/components/inscripcion'
@@ -19,8 +19,8 @@ export default function Home() {
       <Hero />
       <Features />
       <Zigzag />
-      <Testimonials />
-      <Newsletter />
+      <Bases />
+      <Cronograma />
       <Podio />
       <Patrocinadores/>
       <Inscripcion />
