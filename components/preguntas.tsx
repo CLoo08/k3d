@@ -48,51 +48,53 @@ export default function Preguntas() {
     // Agrega más preguntas y respuestas según sea necesario
   ];
 
-  return (
-    <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-2">
-            <h2 className="h2 mb-4" id='preguntas'>Preguntas Frecuentes</h2>
-          </div>
+ return (
+  <section>
+    <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="py-12 md:py-20 border-t border-gray-800">
+        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-2">
+          <h2 className="h2 mb-4" id='preguntas'>Preguntas Frecuentes</h2>
+        </div>
 
-          {/* Preguntas y respuestas */}
-          <div className="max-w-4xl mx-auto">
-            {preguntasRespuestas.map((item, index) => (
-              <div
-                key={index}
-                className={`border-slate-300 rounded shadow mb-2 ${
-                  expandedIndex === index ? 'open' : ''
+        {/* Preguntas y respuestas */}
+        <div className="max-w-4xl mx-auto">
+          {preguntasRespuestas.map((item, index) => (
+            <div
+              key={index}
+              className={`border-slate-300 rounded shadow mb-2 ${
+                expandedIndex === index ? 'open' : ''
+              }`}
+            >
+              <button
+                onClick={() => toggleQuestion(index)}
+                className={`flex justify-between w-full text-xl font-semibold p-6 focus:outline-none ${
+                  expandedIndex === index ? 'text-yellow-500' : ''
                 }`}
+                style={{ textAlign: 'left' }}
+                
               >
-                <button
-                  onClick={() => toggleQuestion(index)}
-                  className={`flex justify-between w-full text-xl font-semibold p-6 focus:outline-none ${
-                    expandedIndex === index ? 'text-yellow-500' : ''
-                  }`}
-                >
-                  {item.pregunta}
-                  <span className="text-gray-600">{expandedIndex === index ? '-' : '+'}</span>
-                </button>
-                <div
-                  className={`answer ${expandedIndex === index ? 'open' : ''}`}
-                  style={{
-                    maxHeight: expandedIndex === index ? '500px' : '0',
-                    transition: 'max-height 0.2s ease-in-out', // Ajusta la duración aquí
-                    overflow: 'hidden',
-                    marginLeft: '30px', // Agrega un margen izquierdo de 10px
-                    marginRight: '30px', // Agrega un margen derecho de 30px
-                  }}
-                >
-                  <p className="text-white-700" style={{ whiteSpace: 'pre-wrap' }}>
-                    {item.respuesta}
-                  </p>
-                </div>
+                {item.pregunta}
+                <span className="text-gray-600">{expandedIndex === index ? '-' : '+'}</span>
+              </button>
+              <div
+                className={`answer ${expandedIndex === index ? 'open' : ''}`}
+                style={{
+                  maxHeight: expandedIndex === index ? '500px' : '0',
+                  transition: 'max-height 0.2s ease-in-out',
+                  overflow: 'hidden',
+                  marginLeft: '30px',
+                  marginRight: '30px',
+                }}
+              >
+                <p className="text-white-700" style={{ whiteSpace: 'pre-wrap' }}>
+                  {item.respuesta}
+                </p>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
-    </section>
-  );
+    </div>
+  </section>
+);
 }
