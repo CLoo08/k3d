@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import Banner from '@/public/images/Banner-modelado.png'
+import Banner from '@/public/images/Banner-modelado.webp'
 
 export default function Footer() {
   return (

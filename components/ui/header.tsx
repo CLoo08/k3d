@@ -2,7 +2,7 @@ import Link from 'next/link';
 import MobileMenu from './mobile-menu';
 import Image from 'next/image';
 
-import Banner from '@/public/images/Banner-modelado.png';
+import Banner from '@/public/images/Banner-modelado.webp';
 
 export default function Header() {
   return (

@@ -1,4 +1,4 @@
-import Modelo from '@/public/images/modelo1.png'
+import Modelo from '@/public/images/modelo1.webp'
 
 import ModalVideo from '@/components/modal-video'
 
