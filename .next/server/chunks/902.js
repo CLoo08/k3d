@@ -93,18 +93,12 @@ function Banner() {
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "text-black inline-flex",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                             className: "fill-current font-semibold hover:text-white font-bold hover:underline",
                             href: "/doc/bases-concurso.pdf",
                             target: "_blank",
                             rel: "noopener noreferrer",
-                            children: [
-                                "Descarga",
-                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                    className: "hidden sm:inline",
-                                    children: " las bases del concurso"
-                                })
-                            ]
+                            children: "Descarga las bases del concurso"
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {

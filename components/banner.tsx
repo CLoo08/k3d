@@ -15,7 +15,7 @@ export default function Banner() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Descarga<span className="hidden sm:inline"> las bases del concurso</span>
+                Descarga las bases del concurso
               </a>
             </div>
             <button
