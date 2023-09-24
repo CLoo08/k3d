@@ -2,6 +2,6 @@
   "/api/hello/route": "/api/hello",
   "/(default)/page": "/",
   "/(auth)/reset-password/page": "/reset-password",
-  "/(auth)/signin/page": "/signin",
-  "/(auth)/signup/page": "/signup"
+  "/(auth)/signup/page": "/signup",
+  "/(auth)/signin/page": "/signin"
 }
