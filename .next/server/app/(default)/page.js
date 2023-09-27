@@ -489,14 +489,14 @@ function Footer() {
                                                     className: "ml-1",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                         className: "text-gray-400 transition duration-150 ease-in-out",
-                                                        children: "17-27 de octubre"
+                                                        children: "Fases: 17-25 de octubre"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                     className: "ml-1",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                         className: "text-gray-400 transition duration-150 ease-in-out",
-                                                        children: "Final: 9:00 a.m. - 5:00 p.m."
+                                                        children: "Final: 27 de octubre, de 9:00 a.m. - 5:00 p.m."
                                                     })
                                                 })
                                             ]
@@ -1984,20 +1984,46 @@ function Newsletter() {
             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: "py-12 md:py-20 border-t border-gray-800",
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "max-w-3xl mx-auto text-center pb-12 md:pb-20",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                            className: "h2 mb-4",
-                            id: "cronograma",
-                            children: "Cronograma de Actividades"
-                        })
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "max-w-3xl mx-auto text-center pb-8 md:pb-15",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                className: "h2",
+                                id: "cronograma",
+                                children: "Cronograma de Actividades"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                                className: "h4 mb-4 text-center text-yellow-500 mt-8",
+                                children: "Primera Fase"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-2xl font-semibold mb-4 text-center",
+                                children: "Formato Remoto"
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                className: "text-center mb-2",
+                                children: [
+                                    "La actividad constar\xe1 de un total de 8 horas de trabajo, divididas en 2 d\xedas para cada participante.",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    "Al final de esta fase, se calificar\xe1n los modelos creados y solo los 10 mejores pasar\xe1n a la fase final."
+                                ]
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                                className: "h4 mb-4 text-center text-yellow-500 mt-8",
+                                children: "Segunda Fase"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-2xl font-semibold text-center",
+                                children: "Final - Formato Presencial"
+                            })
+                        ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "relative py-10 px-8 md:py-16 md:px-12",
+                        className: "relative py-1 px-8 md:py-1 md:px-12",
                         "data-aos": "fade-up",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "absolute right-0 top-0 -ml-40 pointer-events-none",
+                                className: "absolute right-0 top-0 ml-40 pointer-events-none",
                                 "aria-hidden": "true",
                                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
                                     width: "238",
