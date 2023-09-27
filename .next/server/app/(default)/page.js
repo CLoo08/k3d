@@ -496,7 +496,7 @@ function Footer() {
                                                     className: "ml-1",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                         className: "text-gray-400 transition duration-150 ease-in-out",
-                                                        children: "Final: 27 de octubre, de 8:00 a.m. - 5:00 p.m."
+                                                        children: "Final: 25 de octubre, de 8:00 a.m. - 5:00 p.m."
                                                     })
                                                 })
                                             ]

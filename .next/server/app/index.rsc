@@ -1,11 +1,11 @@
 1:HL["/_next/static/css/edd6a05c06fafe7e.css",{"as":"style"}]
-0:["GUEe-cjBMIrzYO084J0Tm",[[["",{"children":["(default)",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/edd6a05c06fafe7e.css","precedence":"next"}]],"$L3"]]]]
+0:["rtAnoe3aThM8Xa6Y-j4hB",[[["",{"children":["(default)",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/edd6a05c06fafe7e.css","precedence":"next"}]],"$L3"]]]]
 4:HL["/_next/static/css/f76788cadc76491e.css",{"as":"style"}]
 5:HL["/_next/static/css/8165353b184a97c1.css",{"as":"style"}]
 6:I{"id":9355,"chunks":["986:static/chunks/986-9b67748fc30c02ea.js","185:static/chunks/app/layout-67b47f69fbedbc30.js"],"name":"","async":false}
 7:I{"id":7767,"chunks":["272:static/chunks/webpack-08628037916ef29c.js","971:static/chunks/fd9d1056-5d33e643200a6aee.js","596:static/chunks/596-d741ded49bfc72cc.js"],"name":"default","async":false}
 8:I{"id":7920,"chunks":["272:static/chunks/webpack-08628037916ef29c.js","971:static/chunks/fd9d1056-5d33e643200a6aee.js","596:static/chunks/596-d741ded49bfc72cc.js"],"name":"default","async":false}
-9:I{"id":8717,"chunks":["986:static/chunks/986-9b67748fc30c02ea.js","444:static/chunks/444-eb105462e3413fce.js","534:static/chunks/app/(default)/layout-71a66ed8ef635608.js"],"name":"","async":false}
+9:I{"id":8717,"chunks":["986:static/chunks/986-9b67748fc30c02ea.js","444:static/chunks/444-eb105462e3413fce.js","534:static/chunks/app/(default)/layout-89888299dbef29a6.js"],"name":"","async":false}
 c:I{"id":6292,"chunks":["986:static/chunks/986-9b67748fc30c02ea.js","772:static/chunks/app/(default)/page-fd5de350cc7da0c6.js"],"name":"","async":false}
 d:I{"id":3222,"chunks":["986:static/chunks/986-9b67748fc30c02ea.js","772:static/chunks/app/(default)/page-fd5de350cc7da0c6.js"],"name":"Image","async":false}
 10:I{"id":3410,"chunks":["986:static/chunks/986-9b67748fc30c02ea.js","772:static/chunks/app/(default)/page-fd5de350cc7da0c6.js"],"name":"","async":false}
