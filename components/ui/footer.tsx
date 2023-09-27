@@ -29,10 +29,10 @@ export default function Footer() {
                       <span className="text-gray-400 transition duration-150 ease-in-out">Facultad de Ingeniería en Sistemas Computacionales</span>
                     </li>
                     <li className="ml-1">
-                      <span className="text-gray-400 transition duration-150 ease-in-out">Fases: 17-20 de octubre, virtual</span>
+                      <span className="text-gray-400 transition duration-150 ease-in-out">Fases: 17-20 de octubre, remoto</span>
                     </li>
                     <li className="ml-1">
-                      <span className="text-gray-400 transition duration-150 ease-in-out">Final: 25 de octubre, de 8:00 a.m. - 5:00 p.m.</span>
+                      <span className="text-gray-400 transition duration-150 ease-in-out">Final: 25 de octubre, de 8:00 a.m. - 5:00 p.m., presencial</span>
                     </li>
                 </ul>
               </div>
