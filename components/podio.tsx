@@ -23,8 +23,12 @@ const Podium = () => {
                 </div>
                 <h3 className="mt-6 text-sm text-white-500">
                     Monitor de 27" - SMI EM27M6W Curvo FullHD
+                    <br />
+                    Teclado Rog Strix Scope RX
+                    <br />
+                    $100 en efectivo                  
                 </h3>
-                <p className="text-base font-semibold text-white-900">Primer Lugar</p>
+                <p className="text-base font-semibold text-yellow-500">Primer Lugar</p>
               </div>
               <div className="group relative">
                 <div className="relative h-full w-full overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
@@ -33,7 +37,7 @@ const Podium = () => {
                 <h3 className="mt-6 text-sm text-white-500">
                     Certificado de $150 para actualizaciones en Tecology
                 </h3>
-                <p className="text-base font-semibold text-white-900">Segundo Lugar</p>
+                <p className="text-base font-semibold text-yellow-500">Segundo Lugar</p>
               </div>
               <div className="group relative">
                 <div className="relative h-full w-full overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
@@ -42,7 +46,7 @@ const Podium = () => {
                 <h3 className="mt-6 text-sm text-white-500">
                     Certificado de $100 para actualizaciones en Tecology
                 </h3>
-                <p className="text-base font-semibold text-white-900">Tercer Lugar</p>
+                <p className="text-base font-semibold text-yellow-500">Tercer Lugar</p>
               </div>
             </div>
           </div>

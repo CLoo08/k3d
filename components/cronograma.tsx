@@ -7,11 +7,13 @@ export default function Newsletter() {
           <div className="max-w-3xl mx-auto text-center pb-8 md:pb-15">
             <h2 className="h2" id="cronograma">Cronograma de Actividades</h2>
             <h4 className="h4 mb-4 text-center text-yellow-500 mt-8">Primera Fase</h4>
-              <p className="text-2xl font-semibold mb-4 text-center">Formato Remoto</p>      
-              <p className="text-center mb-2">La actividad constará de un total de 8 horas de trabajo, divididas en 2 días para cada participante. 
-              <br />Al final de esta fase, se calificarán los modelos creados y solo los 10 mejores pasarán a la fase final.</p>             
-              <h4 className="h4 mb-4 text-center text-yellow-500 mt-8">Segunda Fase</h4>
-              <p className="text-2xl font-semibold text-center">Final - Formato Presencial</p>      
+            <p className="text-2xl font-semibold text-center">Formato Remoto</p>      
+            <p className="font-semibold mb-4 text-center">17-20 de octubre</p>    
+            <p className="text-center mb-2">La actividad constará de un total de 8 horas de trabajo, divididas en 2 días para cada participante. 
+            <br />Al final de esta fase, se calificarán los modelos creados y solo los 10 mejores pasarán a la fase final.</p>             
+            <h4 className="h4 mb-4 text-center text-yellow-500 mt-8">Segunda Fase</h4>
+            <p className="text-2xl font-semibold text-center">Final - Formato Presencial</p>      
+            <p className="font-semibold mb-4 text-center">25 de octubre</p>    
           </div>
 
             {/* CTA box */}

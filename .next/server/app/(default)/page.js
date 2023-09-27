@@ -341,15 +341,15 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 8785:
+/***/ 5486:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5400));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6139));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8409));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7958));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3229));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8409))
 
 /***/ }),
 
@@ -489,14 +489,14 @@ function Footer() {
                                                     className: "ml-1",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                         className: "text-gray-400 transition duration-150 ease-in-out",
-                                                        children: "Fases: 17-25 de octubre"
+                                                        children: "Fases: 17-20 de octubre"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                     className: "ml-1",
                                                     children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                                         className: "text-gray-400 transition duration-150 ease-in-out",
-                                                        children: "Final: 27 de octubre, de 9:00 a.m. - 5:00 p.m."
+                                                        children: "Final: 27 de octubre, de 8:00 a.m. - 5:00 p.m."
                                                     })
                                                 })
                                             ]
@@ -1316,12 +1316,18 @@ const Podium = ()=>{
                                                     alt: "Premio 1"
                                                 })
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h3", {
                                                 className: "mt-6 text-sm text-white-500",
-                                                children: 'Monitor\xa0de\xa027" - SMI EM27M6W Curvo FullHD'
+                                                children: [
+                                                    'Monitor\xa0de\xa027" - SMI EM27M6W Curvo FullHD',
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                                    "Teclado Rog Strix Scope RX",
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                                    "$100 en efectivo"
+                                                ]
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                className: "text-base font-semibold text-white-900",
+                                                className: "text-base font-semibold text-yellow-500",
                                                 children: "Primer Lugar"
                                             })
                                         ]
@@ -1342,7 +1348,7 @@ const Podium = ()=>{
                                                 children: "Certificado de $150 para actualizaciones en Tecology"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                className: "text-base font-semibold text-white-900",
+                                                className: "text-base font-semibold text-yellow-500",
                                                 children: "Segundo Lugar"
                                             })
                                         ]
@@ -1363,7 +1369,7 @@ const Podium = ()=>{
                                                 children: "Certificado de $100 para actualizaciones en Tecology"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                className: "text-base font-semibold text-white-900",
+                                                className: "text-base font-semibold text-yellow-500",
                                                 children: "Tercer Lugar"
                                             })
                                         ]
@@ -1997,8 +2003,12 @@ function Newsletter() {
                                 children: "Primera Fase"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: "text-2xl font-semibold mb-4 text-center",
+                                className: "text-2xl font-semibold text-center",
                                 children: "Formato Remoto"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "font-semibold mb-4 text-center",
+                                children: "17-20 de octubre"
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                 className: "text-center mb-2",
@@ -2015,6 +2025,10 @@ function Newsletter() {
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 className: "text-2xl font-semibold text-center",
                                 children: "Final - Formato Presencial"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "font-semibold mb-4 text-center",
+                                children: "25 de octubre"
                             })
                         ]
                     }),
