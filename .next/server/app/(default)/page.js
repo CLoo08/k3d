@@ -858,46 +858,58 @@ function Header() {
 
 // EXTERNAL MODULE: external "next/dist/compiled/react"
 var react_ = __webpack_require__(8038);
+// EXTERNAL MODULE: ./node_modules/next/dist/client/components/noop-head.js
+var noop_head = __webpack_require__(9081);
+var noop_head_default = /*#__PURE__*/__webpack_require__.n(noop_head);
 ;// CONCATENATED MODULE: ./components/banner.tsx
+
 
 
 function Banner() {
     const [bannerOpen, setBannerOpen] = (0,react_.useState)(true);
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: bannerOpen && /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        children: bannerOpen && /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-50",
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "bg-yellow-500 text-black text-sm p-3 md:rounded shadow-lg flex justify-between bg-white hover:bg-yellow-500 hover:text-white",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "text-black inline-flex",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                            className: "fill-current font-semibold hover:text-white font-bold hover:underline",
-                            href: "/doc/bases-concurso.pdf",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            children: "Descarga las bases del concurso"
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {
-                        className: "text-black hover:text-gray-800 pl-2 ml-3 border-l border-black",
-                        onClick: ()=>setBannerOpen(false),
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                className: "sr-only",
-                                children: "Close"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                className: "w-4 h-4 shrink-0 fill-current text-black font-semibold hover:text-white font-bold",
-                                viewBox: "0 0 16 16",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                    d: "M12.72 3.293a1 1 0 00-1.415 0L8.012 6.586 4.72 3.293a1 1 0 00-1.414 1.414L6.598 8l-3.293 3.293a1 1 0 101.414 1.414l3.293-3.293 3.293 3.293a1 1 0 001.414-1.414L9.426 8l3.293-3.293a1 1 0 000-1.414z"
-                                })
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "bg-yellow-500 text-black text-sm p-3 md:rounded shadow-lg flex justify-between bg-white hover:bg-yellow-500 hover:text-white",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: "text-black inline-flex",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                className: "fill-current font-semibold hover:text-white font-bold hover:underline",
+                                href: "/doc/bases-concurso.pdf",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                children: "Descarga las bases del concurso"
                             })
-                        ]
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {
+                            className: "text-black hover:text-gray-800 pl-2 ml-3 border-l border-black",
+                            onClick: ()=>setBannerOpen(false),
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                    className: "sr-only",
+                                    children: "Close"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                    className: "w-4 h-4 shrink-0 fill-current text-black font-semibold hover:text-white font-bold",
+                                    viewBox: "0 0 16 16",
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                        d: "M12.72 3.293a1 1 0 00-1.415 0L8.012 6.586 4.72 3.293a1 1 0 00-1.414 1.414L6.598 8l-3.293 3.293a1 1 0 101.414 1.414l3.293-3.293 3.293 3.293a1 1 0 001.414-1.414L9.426 8l3.293-3.293a1 1 0 000-1.414z"
+                                    })
+                                })
+                            ]
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx((noop_head_default()), {
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "icon",
+                        href: "/public/icon.ico"
                     })
-                ]
-            })
+                })
+            ]
         })
     });
 }
@@ -3119,7 +3131,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [478,243], () => (__webpack_exec__(5914)));
+var __webpack_exports__ = __webpack_require__.X(0, [478,225], () => (__webpack_exec__(5914)));
 module.exports = __webpack_exports__;
 
 })();

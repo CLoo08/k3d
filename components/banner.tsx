@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
+import Head from 'next/head';
 
 export default function Banner() {
   const [bannerOpen, setBannerOpen] = useState(true);
 
   return (
     <>
-      {bannerOpen && (
+      {   
+      bannerOpen && (
         <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-50">
           <div className="bg-yellow-500 text-black text-sm p-3 md:rounded shadow-lg flex justify-between bg-white hover:bg-yellow-500 hover:text-white">
             <div className="text-black inline-flex">
@@ -31,6 +33,9 @@ export default function Banner() {
               </svg>
             </button>
           </div>
+          <Head>
+            <link rel="icon" href="/public/icon.ico" />
+          </Head>
         </div>
       )}
     </>
