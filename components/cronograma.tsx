@@ -12,12 +12,15 @@ export default function Newsletter() {
             <p className="text-center mb-2">La actividad constará de un total de 8 horas de trabajo, divididas en 2 días para cada participante. 
             <br />Al final de esta fase, se calificarán los modelos creados y solo los 10 mejores pasarán a la fase final.</p>             
             <h4 className="h4 mb-4 text-center text-yellow-500 mt-8">Segunda Fase</h4>
+            <p className="text-2xl font-semibold text-center">Formato Remoto</p>      
+            <p className="font-semibold mb-4 text-center">24 de octubre</p>    
             <p className="text-2xl font-semibold text-center">Final - Formato Presencial</p>      
-            <p className="font-semibold mb-4 text-center">25 de octubre</p>    
+            <p className="font-semibold mb-4 text-center">25 de octubre</p>   
           </div>
 
             {/* CTA box */}
-            <div className="relative py-1 px-8 md:py-1 md:px-12" data-aos="fade-up">             
+            <div className="relative py-1 px-8 md:py-1 md:px-12" data-aos="fade-up">           
+            <p className="text-2xl font-semibold text-center">Final - Horario</p>        
               <div className="absolute right-0 top-0 ml-40 pointer-events-none" aria-hidden="true">
                 <svg width="238" height="110" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <defs>

@@ -2036,6 +2036,14 @@ function Newsletter() {
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 className: "text-2xl font-semibold text-center",
+                                children: "Formato Remoto"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "font-semibold mb-4 text-center",
+                                children: "24 de octubre"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-2xl font-semibold text-center",
                                 children: "Final - Formato Presencial"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -2048,6 +2056,10 @@ function Newsletter() {
                         className: "relative py-1 px-8 md:py-1 md:px-12",
                         "data-aos": "fade-up",
                         children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-2xl font-semibold text-center",
+                                children: "Final - Horario"
+                            }),
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: "absolute right-0 top-0 ml-40 pointer-events-none",
                                 "aria-hidden": "true",
@@ -2737,7 +2749,7 @@ function Testimonials() {
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("blockquote", {
                                         className: "text-lg text-gray-400 grow",
-                                        children: "— Este torneo tendr\xe1 un m\xe1ximo de 10 a 12 participantes de manera individual. Deber\xe1n ser estudiantes activos de alguna universidad o colegio."
+                                        children: "— Este torneo tendr\xe1 un m\xe1ximo de 40 participantes de manera individual. Deber\xe1n ser estudiantes activos de alguna universidad o colegio."
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         className: "text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700",

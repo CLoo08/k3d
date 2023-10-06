@@ -40,7 +40,7 @@ export default function Testimonials() {
                 </div>
                 <h4 className="h4 ml-3">Participantes</h4>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Este torneo tendrá un máximo de 10 a 12 participantes de manera individual. Deberán ser estudiantes activos de alguna universidad o colegio.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow">— Este torneo tendrá un máximo de 40 participantes de manera individual. Deberán ser estudiantes activos de alguna universidad o colegio.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Cantidad de Participantes</cite> - <a className="text-yellow-500 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">K3D</a>
               </div>
