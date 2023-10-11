@@ -2133,7 +2133,7 @@ function Newsletter() {
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
-                                                                    children: "8:00 A.M. - 8:30 A.M."
+                                                                    children: "10:00 A.M. - 10:30 A.M."
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
@@ -2153,7 +2153,7 @@ function Newsletter() {
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
-                                                                    children: "8:30 A.M. - 11:50 A.M."
+                                                                    children: "10:30 A.M. - 12:30 A.M."
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
@@ -2173,7 +2173,7 @@ function Newsletter() {
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
-                                                                    children: "12:00 P.M. - 12:50 P.M."
+                                                                    children: "12:30 P.M. - 1:20 P.M."
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
@@ -2193,7 +2193,7 @@ function Newsletter() {
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
-                                                                    children: "12:50 P.M. - 4:15 P.M."
+                                                                    children: "1:20 P.M. - 4:15 P.M."
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
@@ -2213,7 +2213,7 @@ function Newsletter() {
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
-                                                                    children: "4:20 P.M. - 5:00 P.M."
+                                                                    children: "4:15 P.M. - 5:20 P.M."
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
@@ -2233,7 +2233,7 @@ function Newsletter() {
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
-                                                                    children: "5:00 P.M. - 5:30 P.M."
+                                                                    children: "5:20 P.M. - 5:45 P.M."
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
@@ -2253,7 +2253,7 @@ function Newsletter() {
                                                             children: [
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",
-                                                                    children: "5:30 P.M."
+                                                                    children: "5:45 P.M."
                                                                 }),
                                                                 /*#__PURE__*/ jsx_runtime_.jsx("td", {
                                                                     className: "py-2 px-4 text-center",

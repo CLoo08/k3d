@@ -45,43 +45,43 @@ export default function Newsletter() {
                       </thead>
                       <tbody>
                         <tr className="hover:bg-yellow-500 hover:text-black font-bold transition delay-75 duration-100 ease-in-out">
-                          <td className="py-2 px-4 text-center">8:00 A.M. - 8:30 A.M.</td>
+                          <td className="py-2 px-4 text-center">10:00 A.M. - 10:30 A.M.</td>
                           <td className="py-2 px-4 text-center">APERTURA DEL EVENTO</td>
                           <td className="py-2 px-4 text-center">PISO 3, EDIFICIO 3</td>
                         </tr>
                         <tr className="h-4"></tr>
                         <tr className="hover:bg-yellow-500 hover:text-black font-bold transition delay-75 duration-100 ease-in-out">
-                          <td className="py-2 px-4 text-center">8:30 A.M. - 11:50 A.M.</td>
+                          <td className="py-2 px-4 text-center">10:30 A.M. - 12:30 A.M.</td>
                           <td className="py-2 px-4 text-center">PRIMER RETO</td>
                           <td className="py-2 px-4 text-center">LOBBY de la FISC</td>
                         </tr>
                         <tr className="h-4"></tr>
                         <tr className="hover:bg-yellow-500 hover:text-black font-bold transition delay-75 duration-100 ease-in-out">
-                          <td className="py-2 px-4 text-center">12:00 P.M. - 12:50 P.M.</td>
+                          <td className="py-2 px-4 text-center">12:30 P.M. - 1:20 P.M.</td>
                           <td className="py-2 px-4 text-center">ALMUERZO (TIEMPO DE SPARKCIMIENTO)</td>
                           <td className="py-2 px-4 text-center">PISOO 3, EDIFICIO 3</td>
                         </tr>
                         <tr className="h-4"></tr>
                         <tr className="hover:bg-yellow-500 hover:text-black font-bold transition delay-75 duration-100 ease-in-out">
-                          <td className="py-2 px-4 text-center">12:50 P.M. - 4:15 P.M.</td>
+                          <td className="py-2 px-4 text-center">1:20 P.M. - 4:15 P.M.</td>
                           <td className="py-2 px-4 text-center">SEGUNDO RETO</td>
                           <td className="py-2 px-4 text-center">LOBBY de la FISC</td>
                         </tr>
                         <tr className="h-4"></tr>
                         <tr className="hover:bg-yellow-500 hover:text-black font-bold transition delay-75 duration-100 ease-in-out">
-                          <td className="py-2 px-4 text-center">4:20 P.M. - 5:00 P.M.</td>
+                          <td className="py-2 px-4 text-center">4:15 P.M. - 5:20 P.M.</td>
                           <td className="py-2 px-4 text-center">CALIFICACIÓN DE MODELOS / COFEE BREAK</td>
                           <td className="py-2 px-4 text-center">LOBBY de la FISC</td>
                         </tr>
                         <tr className="h-4"></tr>
                         <tr className="hover:bg-yellow-500 hover:text-black font-bold transition delay-75 duration-100 ease-in-out">
-                          <td className="py-2 px-4 text-center">5:00 P.M. - 5:30 P.M.</td>
+                          <td className="py-2 px-4 text-center">5:20 P.M. - 5:45 P.M.</td>
                           <td className="py-2 px-4 text-center">ENTREGA DE PREMIOS</td>
                           <td className="py-2 px-4 text-center">PISO 3, EDIFICIO 3</td>
                         </tr>
                         <tr className="h-4"></tr>
                         <tr className="hover:bg-yellow-500 hover:text-black font-bold transition delay-75 duration-100 ease-in-out">
-                          <td className="py-2 px-4 text-center">5:30 P.M.</td>
+                          <td className="py-2 px-4 text-center">5:45 P.M.</td>
                           <td className="py-2 px-4 text-center">CIERRE DE LA ACTIVIDAD</td>
                           <td className="py-2 px-4 text-center">PISO 3, EDIFICIO 3</td>
                         </tr>
