@@ -21,12 +21,12 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
+        <div className="relative pt-32 pb-10 md:pt-20 md:pb-16">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-4">
-          <h1 className="h1 mb-4 text-white" id='inicio'> King of <span className="text-yellow-500">3D Modeling</span></h1>   
-            <p className="text-xl text-gray-400 mb-auto">Este torneo será un enfrentamiento de todos contra todos, 
+          <h1 className="h1 mb-10 text-white" id='inicio'> King of <span className="text-yellow-500">3D Modeling</span></h1>   
+            <p className="text-lg text-gray-400 mb-auto">Este torneo será un enfrentamiento de todos contra todos, 
             <br></br>
             donde cada participante buscará reclamar ser el primer
             <br></br>
