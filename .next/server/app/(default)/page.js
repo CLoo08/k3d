@@ -341,15 +341,15 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 4649:
+/***/ 937:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5400));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6139));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8409));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3229));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7958));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1357));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3229))
 
 /***/ }),
 
@@ -1110,13 +1110,13 @@ __webpack_require__.r(__webpack_exports__);
 const slides = [
     {
         id: 1,
-        image: "/images/logo-pesa-v2prancheta-1.avif",
+        image: "/images/logo-pesa-v2prancheta-1.webp",
         width: "300px",
         height: "200px"
     },
     {
         id: 2,
-        image: "/images/logo-bn.avif",
+        image: "/images/logo-bn.webp",
         width: "300px",
         height: "200px"
     }
@@ -1257,7 +1257,7 @@ const Patrocinadores = ()=>{
 
 /***/ }),
 
-/***/ 8409:
+/***/ 1357:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1278,10 +1278,10 @@ var next_image = __webpack_require__(2451);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./public/images/Monitor.webp
 /* harmony default export */ const Monitor = ({"src":"/_next/static/media/Monitor.6b008670.webp","height":1024,"width":1024,"blurDataURL":"data:image/webp;base64,UklGRrYAAABXRUJQVlA4WAoAAAAQAAAABwAABwAAQUxQSDkAAAABYFtbe5IvCbaBSwdVNuLQwgiu+zr0LitExASonmuarq92+2PzLx/7bevHBEAYAIDC44grgE4BpgEAVlA4IFYAAAAQAgCdASoIAAgAAkA4JaACdDBRAWmCSv2AAP71WVUATf2hF58VwFrG0HTvC77QIwS4t/5NnSIgmHKRmfqDy9Wdh/yzl6qb1O3G73G/j2/bosI40gAAAA==","blurWidth":8,"blurHeight":8});
-;// CONCATENATED MODULE: ./public/images/premio150.png
-/* harmony default export */ const premio150 = ({"src":"/_next/static/media/premio150.848e1752.png","height":177,"width":277,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAsElEQVR4nAGlAFr/AWyYeOtAKTkM3+ni/nXKmQAYBxMAeTRa/wgFBwQAAAHuAa3Cs/80JjAA6e/qANjj2wD///8ACQcJAPv8+wAMCQv6AQBuC/uWQ5IEzuPV/wQEBAAHAwYA9fr2ACUWIQERDA/4AQBvE/2NPYICu9vGALjszgAA/OgAfTV4ACYZIgDz9/T6AQBvEPGRP4kL9fv3/uHu5QAPCAwAGREYAPn6+AIRCxD0xpRDqrn5r5MAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
-;// CONCATENATED MODULE: ./public/images/premio100.png
-/* harmony default export */ const premio100 = ({"src":"/_next/static/media/premio100.46942294.png","height":177,"width":277,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAsElEQVR4nAGlAFr/AWyYeOpAKTkK3+ni/nXKmAEZBxUAeDRZ/w0JDAP////uAa7Cs/8zJjAA6O7qANjk2wD///8ACgcJAP39/AAKCAr6AQBvD/uXQ48EzuPV/wQDBAAGAwUA9fr2ACUWIQERDBD3AQBvE/6OPYIBudvFALnszwAA/OgAfjV4ACUZIgDz9/T5AQBvEPKSQIkK9Pr3/uHu5QAOCAwAGxEYAfj6+QIRCw/zX5lGsBKLJDcAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/images/Card_Tecology100.webp
+/* harmony default export */ const Card_Tecology100 = ({"src":"/_next/static/media/Card_Tecology100.6354d5a2.webp","height":1800,"width":2948,"blurDataURL":"data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoIAAUAAkA4JagCdADZkL0AAPv0D0Nq9FgjEOjJnA6LnRmICQzjouGQxH/Yv2B/EqeAAA==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/images/Card_Tecology150.webp
+/* harmony default export */ const Card_Tecology150 = ({"src":"/_next/static/media/Card_Tecology150.76931585.webp","height":1830,"width":2948,"blurDataURL":"data:image/webp;base64,UklGRnAAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSBMAAAABF/D+/4iIQiBA4D9bRET/Q6QBAFZQOCA2AAAAsAEAnQEqCAAFAAJAOCWoAnQA83u1EAD79A9DavRYLaSbWoje5AJ5Ei4uGQxH/Yv2B/EqeAAA","blurWidth":8,"blurHeight":5});
 ;// CONCATENATED MODULE: ./components/podio.tsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
@@ -1351,7 +1351,7 @@ const Podium = ()=>{
                                                 className: "relative h-full w-full overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     className: "h-full w-full object-cover object-center",
-                                                    src: premio150,
+                                                    src: Card_Tecology150,
                                                     alt: "Premio 2"
                                                 })
                                             }),
@@ -1372,7 +1372,7 @@ const Podium = ()=>{
                                                 className: "relative h-full w-full overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     className: "h-full w-full object-cover object-center",
-                                                    src: premio100,
+                                                    src: Card_Tecology100,
                                                     alt: "Premio 3"
                                                 })
                                             }),
@@ -3113,7 +3113,7 @@ const __default__ = proxy.default;
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Banner-modelado.e1008a2b.webp","height":440,"width":441,"blurDataURL":"data:image/webp;base64,UklGRrYAAABXRUJQVlA4WAoAAAAQAAAABwAABwAAQUxQSDYAAAABZ2AgQBJ1VQ/b24DkRkSEOCjjbB9mattY//qMImgihhB66CKBbEpE9D8mVgntcAb1DpfQEytWUDggWgAAADACAJ0BKggACAACQDglsAJ0ugADHxyuYjaAAP7VuRxAsmK8W14mJXF+Qc5bOEPqiDH9fmYE7P8QA/lKT5g/+p9Oo+S+qP/ozgHo/5QyllH4cP2psU788AAAAA==","blurWidth":8,"blurHeight":8});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Banner-modelado.6c5bbbe0.webp","height":440,"width":441,"blurDataURL":"data:image/webp;base64,UklGRsIAAABXRUJQVlA4WAoAAAAQAAAABwAABwAAQUxQSDYAAAABZ2AgQBJ1VQ/b24DkRkSEOCjjbB9mattY//qMImgihhB66CKBbEpE9D8mVgntcAb1DpfQEytWUDggZgAAAHACAJ0BKggACAACQDglsAJ0ugANYANPIZRvLAAA/PvvXi+RaBjuwX/FOwSN+kVqWfgCaeKPoRi61iGPCWURscv3E13arIWRKY0H/o0RJwI2/9NLfG+Q/277NLxd8XgFhYNSZgAAAA==","blurWidth":8,"blurHeight":8});
 
 /***/ }),
 

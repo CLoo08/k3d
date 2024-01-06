@@ -5,13 +5,13 @@ import Image from 'next/image';
 const slides = [
   {
     id: 1,
-    image: '/images/logo-pesa-v2prancheta-1.avif',
+    image: '/images/logo-pesa-v2prancheta-1.webp',
     width: '300px', // Define el ancho deseado para la primera imagen
     height: '200px', // Define el alto deseado para la primera imagen
   },
   {
     id: 2,
-    image: '/images/logo-bn.avif',
+    image: '/images/logo-bn.webp',
     width: '300px', // Define el ancho deseado para la primera imagen
     height: '200px', // Define el alto deseado para la primera imagen
   },
