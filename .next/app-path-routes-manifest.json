@@ -1,4 +1,1 @@
-{
-  "/api/hello/route": "/api/hello",
-  "/(default)/page": "/"
-}
+{"/_not-found":"/_not-found","/api/hello/route":"/api/hello","/(default)/page":"/"}
