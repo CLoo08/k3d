@@ -3,25 +3,32 @@ export default function Newsletter() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">      
-        <div className="py-12 md:py-20 border-t border-gray-800">
-          <div className="max-w-3xl mx-auto text-center pb-8 md:pb-15">
-            <h2 className="h2" id="cronograma">Cronograma de Actividades</h2>
-            <h4 className="h4 mb-4 text-center text-yellow-500 mt-8">Primera Fase</h4>
-            <p className="text-2xl font-semibold text-center">Formato Remoto</p>      
-            <p className="font-semibold mb-4 text-center">17-20 de octubre</p>    
-            <p className="text-center mb-2">La actividad constará de un total de 8 horas de trabajo, divididas en 2 días para cada participante. 
-            <br />Al final de esta fase, se calificarán los modelos creados y solo los 10 mejores pasarán a la fase final.</p>             
-            <h4 className="h4 mb-4 text-center text-yellow-500 mt-8">Segunda Fase</h4>
-            <p className="text-2xl font-semibold text-center">Formato Remoto</p>      
-            <p className="font-semibold mb-4 text-center">24 de octubre</p>    
-            <p className="text-2xl font-semibold text-center">Final - Formato Presencial</p>      
-            <p className="font-semibold mb-4 text-center">25 de octubre</p>   
+      <div className="py-12 md:py-20 border-t border-gray-800">
+        <h2 className="text-4xl mx-auto text-center font-bold" id="cronograma">Cronograma de Actividades</h2>
+        <div className="max-w-3xl mx-auto pb-8 md:pb-15 md:flex md:justify-between">
+          <div className="md:w-1/2 md:pr-4">
+            {/* Contenido para la Primera Fase */}
+            <h4 className="font-bold text-2xl mb-2 text-center text-yellow-500 mt-4">Primera Fase</h4>
+            <p className="font-semibold text-xl text-center italic">Formato Remoto</p>
+            <p className="font-semibold mb-4 text-center text-yellow-100">17-20 de octubre</p>
+            <p className="mb-2">La actividad constará de un total de 8 horas de trabajo, divididas en 2 días para cada participante.
+            <br></br>
+            Al final de esta fase, se calificarán los modelos creados y solo los 10 mejores pasarán a la fase final.</p>
           </div>
+          <div className="md:w-1/2 md:pl-4">
+            {/* Contenido para la Segunda Fase */}
+            <h4 className="font-bold text-2xl mb-2 text-center text-yellow-500 mt-4">Segunda Fase</h4>
+            <p className="text-xl font-semibold text-center italic">Formato Remoto</p>
+            <p className="font-semibold mb-4 text-center text-yellow-100">24 de octubre</p>
+            <p className="text-xl font-semibold text-center italic">Final - Formato Presencial</p>
+            <p className="font-semibold mb-4 text-center text-yellow-100">25 de octubre</p>
+          </div>
+        </div>
 
             {/* CTA box */}
-            <div className="relative py-1 px-8 md:py-1 md:px-12" data-aos="fade-up">           
-            <p className="text-2xl font-semibold text-center">Final - Horario</p>        
-              <div className="absolute right-0 top-0 ml-40 pointer-events-none" aria-hidden="true">
+            <h3 className="text-2xl font-semibold text-center">Horario para la Final</h3>       
+            <div className="relative py-1 px-8 md:py-1 md:px-12" data-aos="fade-up">    
+            <div className="absolute right-0 top-0 pointer-events-none" aria-hidden="true">
                 <svg width="238" height="110" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <linearGradient id="illustration-04" x1="369.483" y1="-84.633" x2="139.954" y2="-199.798" gradientUnits="userSpaceOnUse">
@@ -35,12 +42,12 @@ export default function Newsletter() {
               <div className="relative flex flex-col lg:flex-row justify-between items-center">
                 <div className="w-full overflow-x-auto ">
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-full">
-                    <table className="w-full table-auto">
+                    <table className="w-10/12 table-auto">
                       <thead>
                         <tr>
-                          <th className="py-2 px-4 text-center text-xl text-yellow-500">HORA</th>
-                          <th className="py-2 px-4 text-center text-xl text-yellow-500">ACTIVIDAD</th>
-                          <th className="py-2 px-4 text-center text-xl text-yellow-500">LUGAR</th>
+                        <th className="py-2 px-2 sm:px-4 text-center text-xl text-yellow-500">HORA</th>
+                        <th className="py-2 px-2 sm:px-4 text-center text-xl text-yellow-500">ACTIVIDAD</th>
+                        <th className="py-2 px-2 sm:px-4 text-center text-xl text-yellow-500">LUGAR</th>
                         </tr>
                       </thead>
                       <tbody>

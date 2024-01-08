@@ -56,6 +56,21 @@ export default function Preguntas() {
           <h2 className="h2 mb-4" id='preguntas'>Preguntas Frecuentes</h2>
         </div>
 
+        {/*<dl className='mt-2 divide-y divide-slate-100'>
+          <details className='group py-4 marker:content-[""]'>
+            <summary className='flex w-full cursor-pointer select-none justify-between text-left text-base font-semibold leading-7 text-white group-open:text-yellow-300 [&::-webkit-details-marker]:hidden'>
+              AAAAAAAAAAAA
+            </summary>
+              <div className='pb-6 pt-6'>
+                <div className='prose prose-slate max-w-none prose-a:font-semibold prose-a:text-indigo-600 hover:prose-a:text-indigo-500'>
+                  <p>
+                    "HOLA"
+                  </p>
+                </div>
+              </div>
+          </details>
+        </dl>*/}
+
         {/* Preguntas y respuestas */}
         <div className="max-w-4xl mx-auto">
           {preguntasRespuestas.map((item, index) => (

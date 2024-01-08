@@ -1,21 +1,20 @@
 export default function Testimonials() {
   return (
-    <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
+    <section className="bg-gray-900">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="py-12 md:py-20 border-t border-gray-800">
 
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4" id='bases'>Bases de la Competencia</h2>
-            <p className="text-xl text-gray-400">La competición se desarrollará en un emocionante día, durante el cual los participantes deberán enfrentarse a una 
-            desafiante premisa aleatoria que será revelada al inicio.</p>
-          </div>
+        {/* Section header */}
+        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold mb-4" id='bases'>Bases de la Competencia</h2>
+          <p className="text-lg md:text-xl text-gray-400">La competición se desarrollará en un emocionante día, durante el cual los participantes deberán enfrentarse a una desafiante premisa aleatoria que será revelada al inicio.</p>
+        </div>
 
           {/* Testimonials */}
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 md:grid-cols-2 md:gap-6 sm:grid-cols-1">
 
             {/* 1st testimonial */}
-            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
+            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="100">
               <div className="flex items-center mb-4">
                 <div className="relative inline-flex flex-col">
                 <svg className="rounded-full w-10 h-10 text-gray-800 dark:text-yellow-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20" width={48} height={48}>
@@ -31,7 +30,7 @@ export default function Testimonials() {
             </div>
 
             {/* 2st testimonial */}
-            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
+            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="150">
               <div className="flex items-center mb-4">
                 <div className="relative inline-flex flex-col">
                     <svg className="rounded-full w-10 h-10 text-gray-800 dark:text-yellow-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -47,7 +46,7 @@ export default function Testimonials() {
             </div>
 
             {/* 3rd testimonial */}
-            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="400">
+            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
               <div className="flex items-center mb-4">
                 <div className="relative inline-flex flex-col mb-4">
                   <svg className="w-10 h-10 text-gray-800 dark:text-yellow-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -65,7 +64,7 @@ export default function Testimonials() {
             </div>
 
             {/* 4to testimonial */}
-            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
+            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="250">
               <div className="flex items-center mb-4">
                 <div className="relative inline-flex flex-col">
                     <svg className="w-10 h-10 text-gray-800 dark:text-yellow-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -81,7 +80,7 @@ export default function Testimonials() {
             </div>
 
             {/* 5to testimonial */}
-            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
+            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="300">
               <div className="flex items-center mb-4">
                 <div className="relative inline-flex flex-col">
                   <svg className="w-10 h-10 text-gray-800 dark:text-yellow-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 20">
@@ -97,7 +96,7 @@ export default function Testimonials() {
             </div>
 
             {/* 6to testimonial */}
-            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
+            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="350">
               <div className="flex items-center mb-4">
                 <div className="relative inline-flex flex-col">
                   <svg className="w-10 h-10 text-gray-800 dark:text-yellow-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">

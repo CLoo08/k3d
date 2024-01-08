@@ -6,14 +6,14 @@ const slides = [
   {
     id: 1,
     image: '/images/logo-pesa-v2prancheta-1.webp',
-    width: '300px', // Define el ancho deseado para la primera imagen
-    height: '200px', // Define el alto deseado para la primera imagen
+    width: '150px', 
+    height: '100px', 
   },
   {
     id: 2,
     image: '/images/logo-bn.webp',
-    width: '300px', // Define el ancho deseado para la primera imagen
-    height: '200px', // Define el alto deseado para la primera imagen
+    width: '150px', 
+    height: '100px', 
   },
 ];
 
@@ -39,21 +39,21 @@ const Patrocinadores = () => {
   return (
     <section className="py-2">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 delay-75 duration-100 ease-in-out" data-aos="fade-up">
-        <div className="py-2 md:py-10 border-t border-gray-800">
-          <div className="mx-auto max-w-2xl sm:py-16 lg:max-w-none lg:py-2"> {/* Ajustamos el padding vertical aquí también */}
-            <div className="max-w-3xl mx-auto text-center pb-2 md:pb-2"> {/* Ajustamos el padding vertical aquí también */}
-              <h2 className="h2 mb-4" id="patrocinadores">
+        <div className="py-2 md:py-8 border-t border-gray-800">
+          <div className="mx-auto max-w-2xl sm:py-16 lg:max-w-96 lg:py-2"> {/* Ajustamos el padding vertical aquí también */}
+            <div className="max-w-3xl mx-auto text-center"> {/* Ajustamos el padding vertical aquí también */}
+              <h2 className="text-3xl md:text-4xl lg:text-5xl mb-2" id="patrocinadores">
                   Patrocinadores
               </h2>
 
               <div className="relative w-full">
-                  <div className="relative h-96 overflow-visible rounded-lg"> {/* Ajusta la altura a h-96 */}
+                  <div className="relative h-80 overflow-visible rounded-lg"> {/* Ajusta la altura a h-96 */}
                       {slides.map((slide, index) => (
                           <div
                           key={slide.id}
                           className={`${
                               index === currentSlide ? 'opacity-100' : 'opacity-0'
-                          } absolute top-0 left-0 w-full h-96 transition-opacity duration-700 ease-in-out`} 
+                          } flex items-center top-0 left-0 w-72 h-96 transition-opacity duration-700 ease-in-out`} 
                           >
                           <Image
                               src={slide.image}
@@ -72,8 +72,8 @@ const Patrocinadores = () => {
                       type="button"
                       className={`w-3 h-3 rounded-full ${
                           index === currentSlide
-                          ? 'bg-white dark:bg-gray-800'
-                          : 'bg-gray-300 dark:bg-gray-600'
+                          ? 'bg-white dark:bg-gray-300'
+                          : 'bg-gray-100 dark:bg-gray-600'
                       }`}
                       aria-current={index === currentSlide ? 'true' : 'false'}
                       aria-label={`Slide ${index + 1}`}
